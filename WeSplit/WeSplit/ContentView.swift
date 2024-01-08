@@ -31,6 +31,10 @@ struct ContentView: View {
         checkTotal / numberOfPeople
     }
 
+    var tipIsZero: Bool {
+        tipSelected == 0
+    }
+
     var body: some View {
         NavigationStack {
             Form {
@@ -58,6 +62,7 @@ struct ContentView: View {
 
                 Section("Total Check Amount") {
                     Text(checkTotal, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .foregroundColor(tipIsZero ? .red : .primary) // Day 24
                 }
 
                 Section("Total Per Person") {

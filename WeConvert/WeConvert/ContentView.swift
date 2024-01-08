@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+    }
+}
+
 struct ContentView: View {
     @FocusState private var amountIsFocused: Bool
 
@@ -86,6 +94,10 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
+                Text("WeConvert")
+                    //.modifier(Title())
+                    .titleStyle() // Day 24
+
                 Section("Temperature") {
                     Picker("Unit", selection: $beforeUnit) {
                         ForEach(units, id: \.self) {
@@ -114,7 +126,6 @@ struct ContentView: View {
                     Text(afterValue, format: .number)
                 }
             }
-            .navigationTitle("WeConvert")
             .toolbar {
                 if amountIsFocused {
                     Button("Done") {
@@ -123,6 +134,12 @@ struct ContentView: View {
                 }
             }
         }
+    }
+}
+
+extension View {
+    func titleStyle() -> some View {
+        modifier(Title())
     }
 }
 
