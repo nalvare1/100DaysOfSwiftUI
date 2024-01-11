@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Title: ViewModifier {
+struct Title: ViewModifier { // Day 24
     func body(content: Content) -> some View {
         content
             .font(.largeTitle)
@@ -137,7 +137,7 @@ struct ContentView: View {
     }
 }
 
-extension View {
+extension View { // Day 24
     func titleStyle() -> some View {
         modifier(Title())
     }
