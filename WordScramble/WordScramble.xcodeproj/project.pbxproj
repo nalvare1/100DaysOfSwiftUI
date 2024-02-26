@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7263113F2B8D476200A74A95 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7263113E2B8D476200A74A95 /* SleepCalculator.mlmodel */; };
-		72EC01662B50AD8D0054D405 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC01652B50AD8D0054D405 /* BetterRestApp.swift */; };
-		72EC01682B50AD8D0054D405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC01672B50AD8D0054D405 /* ContentView.swift */; };
-		72EC016A2B50AD900054D405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EC01692B50AD900054D405 /* Assets.xcassets */; };
-		72EC016D2B50AD900054D405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EC016C2B50AD900054D405 /* Preview Assets.xcassets */; };
-		72EC01742B50B3430054D405 /* DateExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC01732B50B3430054D405 /* DateExamplesView.swift */; };
+		726E86742B8D174300B50343 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E86732B8D174300B50343 /* WordScrambleApp.swift */; };
+		726E86762B8D174300B50343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E86752B8D174300B50343 /* ContentView.swift */; };
+		726E86782B8D174500B50343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726E86772B8D174500B50343 /* Assets.xcassets */; };
+		726E867C2B8D174500B50343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726E867B2B8D174500B50343 /* Preview Assets.xcassets */; };
+		729502FE2B8D2A2200ABD3A3 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 729502FD2B8D2A2200ABD3A3 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7263113E2B8D476200A74A95 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
-		72EC01622B50AD8D0054D405 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72EC01652B50AD8D0054D405 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		72EC01672B50AD8D0054D405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		72EC01692B50AD900054D405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72EC016C2B50AD900054D405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		72EC01732B50B3430054D405 /* DateExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExamplesView.swift; sourceTree = "<group>"; };
+		726E86702B8D174300B50343 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726E86732B8D174300B50343 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
+		726E86752B8D174300B50343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		726E86772B8D174500B50343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726E86792B8D174500B50343 /* WordScramble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordScramble.entitlements; sourceTree = "<group>"; };
+		726E867B2B8D174500B50343 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		729502FD2B8D2A2200ABD3A3 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72EC015F2B50AD8D0054D405 /* Frameworks */ = {
+		726E866D2B8D174300B50343 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72EC01592B50AD8D0054D405 = {
+		726E86672B8D174300B50343 = {
 			isa = PBXGroup;
 			children = (
-				72EC01642B50AD8D0054D405 /* BetterRest */,
-				72EC01632B50AD8D0054D405 /* Products */,
+				726E86722B8D174300B50343 /* WordScramble */,
+				726E86712B8D174300B50343 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72EC01632B50AD8D0054D405 /* Products */ = {
+		726E86712B8D174300B50343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72EC01622B50AD8D0054D405 /* BetterRest.app */,
+				726E86702B8D174300B50343 /* WordScramble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72EC01642B50AD8D0054D405 /* BetterRest */ = {
+		726E86722B8D174300B50343 /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
-				72EC01652B50AD8D0054D405 /* BetterRestApp.swift */,
-				72EC01672B50AD8D0054D405 /* ContentView.swift */,
-				72EC01732B50B3430054D405 /* DateExamplesView.swift */,
-				7263113E2B8D476200A74A95 /* SleepCalculator.mlmodel */,
-				72EC01692B50AD900054D405 /* Assets.xcassets */,
-				72EC016B2B50AD900054D405 /* Preview Content */,
+				726E86732B8D174300B50343 /* WordScrambleApp.swift */,
+				726E86752B8D174300B50343 /* ContentView.swift */,
+				726E86772B8D174500B50343 /* Assets.xcassets */,
+				726E86792B8D174500B50343 /* WordScramble.entitlements */,
+				729502FD2B8D2A2200ABD3A3 /* start.txt */,
+				726E867A2B8D174500B50343 /* Preview Content */,
 			);
-			path = BetterRest;
+			path = WordScramble;
 			sourceTree = "<group>";
 		};
-		72EC016B2B50AD900054D405 /* Preview Content */ = {
+		726E867A2B8D174500B50343 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				72EC016C2B50AD900054D405 /* Preview Assets.xcassets */,
+				726E867B2B8D174500B50343 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +75,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72EC01612B50AD8D0054D405 /* BetterRest */ = {
+		726E866F2B8D174300B50343 /* WordScramble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72EC01702B50AD900054D405 /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildConfigurationList = 726E867F2B8D174500B50343 /* Build configuration list for PBXNativeTarget "WordScramble" */;
 			buildPhases = (
-				72EC015E2B50AD8D0054D405 /* Sources */,
-				72EC015F2B50AD8D0054D405 /* Frameworks */,
-				72EC01602B50AD8D0054D405 /* Resources */,
+				726E866C2B8D174300B50343 /* Sources */,
+				726E866D2B8D174300B50343 /* Frameworks */,
+				726E866E2B8D174300B50343 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BetterRest;
-			productName = BetterRest;
-			productReference = 72EC01622B50AD8D0054D405 /* BetterRest.app */;
+			name = WordScramble;
+			productName = WordScramble;
+			productReference = 726E86702B8D174300B50343 /* WordScramble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72EC015A2B50AD8D0054D405 /* Project object */ = {
+		726E86682B8D174300B50343 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					72EC01612B50AD8D0054D405 = {
+					726E866F2B8D174300B50343 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 72EC015D2B50AD8D0054D405 /* Build configuration list for PBXProject "BetterRest" */;
+			buildConfigurationList = 726E866B2B8D174300B50343 /* Build configuration list for PBXProject "WordScramble" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +115,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 72EC01592B50AD8D0054D405;
-			productRefGroup = 72EC01632B50AD8D0054D405 /* Products */;
+			mainGroup = 726E86672B8D174300B50343;
+			productRefGroup = 726E86712B8D174300B50343 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72EC01612B50AD8D0054D405 /* BetterRest */,
+				726E866F2B8D174300B50343 /* WordScramble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72EC01602B50AD8D0054D405 /* Resources */ = {
+		726E866E2B8D174300B50343 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72EC016D2B50AD900054D405 /* Preview Assets.xcassets in Resources */,
-				72EC016A2B50AD900054D405 /* Assets.xcassets in Resources */,
+				726E867C2B8D174500B50343 /* Preview Assets.xcassets in Resources */,
+				729502FE2B8D2A2200ABD3A3 /* start.txt in Resources */,
+				726E86782B8D174500B50343 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72EC015E2B50AD8D0054D405 /* Sources */ = {
+		726E866C2B8D174300B50343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72EC01682B50AD8D0054D405 /* ContentView.swift in Sources */,
-				72EC01662B50AD8D0054D405 /* BetterRestApp.swift in Sources */,
-				7263113F2B8D476200A74A95 /* SleepCalculator.mlmodel in Sources */,
-				72EC01742B50B3430054D405 /* DateExamplesView.swift in Sources */,
+				726E86762B8D174300B50343 /* ContentView.swift in Sources */,
+				726E86742B8D174300B50343 /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		72EC016E2B50AD900054D405 /* Debug */ = {
+		726E867D2B8D174500B50343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,18 +203,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		72EC016F2B50AD900054D405 /* Release */ = {
+		726E867E2B8D174500B50343 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,96 +258,111 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		72EC01712B50AD900054D405 /* Debug */ = {
+		726E86802B8D174500B50343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordScramble/WordScramble.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
-		72EC01722B50AD900054D405 /* Release */ = {
+		726E86812B8D174500B50343 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordScramble/WordScramble.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.WordScramble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72EC015D2B50AD8D0054D405 /* Build configuration list for PBXProject "BetterRest" */ = {
+		726E866B2B8D174300B50343 /* Build configuration list for PBXProject "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72EC016E2B50AD900054D405 /* Debug */,
-				72EC016F2B50AD900054D405 /* Release */,
+				726E867D2B8D174500B50343 /* Debug */,
+				726E867E2B8D174500B50343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72EC01702B50AD900054D405 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+		726E867F2B8D174500B50343 /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72EC01712B50AD900054D405 /* Debug */,
-				72EC01722B50AD900054D405 /* Release */,
+				726E86802B8D174500B50343 /* Debug */,
+				726E86812B8D174500B50343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72EC015A2B50AD8D0054D405 /* Project object */;
+	rootObject = 726E86682B8D174300B50343 /* Project object */;
 }
