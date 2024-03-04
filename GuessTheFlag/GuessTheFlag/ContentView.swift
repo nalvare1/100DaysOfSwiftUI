@@ -20,12 +20,17 @@ struct FlagImage: View {
 struct ContentView: View {
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
+    @State private var selectedOption = -1
+    @State private var greyOutOtherFlags = false
 
     @State private var scoreRight = 0
     @State private var scoreWrong = 0
     @State private var scoreTitle = ""
     @State private var scoreIsShowing = false
     @State private var gameOver = false
+
+    // Day 34:
+    @State private var animationAmount = 0.0
 
     var score: String {
         "\(scoreRight) right\n\(scoreWrong) wrong"
@@ -63,10 +68,21 @@ struct ContentView: View {
 
                     ForEach(0..<3) { option in
                         Button {
-                            flagTapped(option)
+                            // Day 34:
+                            withAnimation {
+                                animationAmount += 360
+                                greyOutOtherFlags = true
+                                selectedOption = option
+                                flagTapped(option)
+                            }
                         } label: {
                             FlagImage(countryName: countries[option]) // Day 24
                         }
+                        // Day 34:
+                        .rotation3DEffect(selectedOption == option ? .degrees(animationAmount) : .degrees(0), axis: (x: 0, y: 1, z: 0))
+                        .opacity((selectedOption != option) && greyOutOtherFlags ? 0.25 : 1)
+                        .transition(.opacity)
+
                     }
                 }
                 .frame(maxWidth: .infinity)
@@ -121,6 +137,10 @@ struct ContentView: View {
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+
+        // Day 34:
+        selectedOption = -1
+        greyOutOtherFlags = false
     }
 
     func restartGame() {

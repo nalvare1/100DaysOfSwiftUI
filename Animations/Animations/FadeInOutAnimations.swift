@@ -1,5 +1,5 @@
 //
-//  ShowHideAnimations.swift
+//  FadeInOutAnimations.swift
 //  Animations
 //
 //  Created by Natalie Alvarez on 3/1/24.
