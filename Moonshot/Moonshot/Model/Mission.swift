@@ -8,14 +8,14 @@
 import Foundation
 
 struct Mission: Codable, Identifiable {
-    struct CrewMember: Codable {
+    struct CrewRole: Codable {
         let name: String
         let role: String
     }
 
     id: Int
     let launchDate: Date?
-    let crew: [CrewMember]
+    let crew: [CrewRole]
     let description: String
 
     var displayName: String {
