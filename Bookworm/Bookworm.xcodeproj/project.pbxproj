@@ -7,39 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		721DC3422BCD838300ECA051 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DC3412BCD838300ECA051 /* CheckoutView.swift */; };
-		7228CE2A2BC59679008ED1B7 /* AdvancedHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228CE292BC59679008ED1B7 /* AdvancedHapticsView.swift */; };
-		7228CE2C2BC59A5E008ED1B7 /* SimpleHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7228CE2B2BC59A5E008ED1B7 /* SimpleHapticsView.swift */; };
-		7273C4392BC4AAF30008EF5B /* DisablingFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273C4382BC4AAF30008EF5B /* DisablingFormsView.swift */; };
-		72C11F6A2BCD7C4600FC6D8A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C11F692BCD7C4600FC6D8A /* Order.swift */; };
-		72C11F6E2BCD7CE400FC6D8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C11F6D2BCD7CE400FC6D8A /* ContentView.swift */; };
-		72C11F702BCD7EA700FC6D8A /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C11F6F2BCD7EA700FC6D8A /* AddressView.swift */; };
-		72D0B3542BC4988D00A591F1 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3532BC4988D00A591F1 /* CupcakeCornerApp.swift */; };
-		72D0B3562BC4988D00A591F1 /* CodableDataFromURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3552BC4988D00A591F1 /* CodableDataFromURLView.swift */; };
-		72D0B3582BC4988E00A591F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D0B3572BC4988E00A591F1 /* Assets.xcassets */; };
-		72D0B35C2BC4988E00A591F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D0B35B2BC4988E00A591F1 /* Preview Assets.xcassets */; };
-		72D0B3652BC4A90F00A591F1 /* LoadingImageFromRemoteServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0B3642BC4A90F00A591F1 /* LoadingImageFromRemoteServerView.swift */; };
+		721DEE652BD993340081471F /* HowToUseTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DEE642BD993340081471F /* HowToUseTextEditorView.swift */; };
+		721DEE672BD995C00081471F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DEE662BD995C00081471F /* Student.swift */; };
+		721DEE692BD997B40081471F /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DEE682BD997B40081471F /* StudentView.swift */; };
+		721DEE6B2BD999120081471F /* StudentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DEE6A2BD999120081471F /* StudentApp.swift */; };
+		721DEE6D2BD9992A0081471F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DEE6C2BD9992A0081471F /* ContentView.swift */; };
+		728A1C2C2BD98E470071E9B9 /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A1C2B2BD98E470071E9B9 /* BookwormApp.swift */; };
+		728A1C2E2BD98E470071E9B9 /* HowToUseBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A1C2D2BD98E470071E9B9 /* HowToUseBindingView.swift */; };
+		728A1C302BD98E480071E9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728A1C2F2BD98E480071E9B9 /* Assets.xcassets */; };
+		728A1C342BD98E480071E9B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728A1C332BD98E480071E9B9 /* Preview Assets.xcassets */; };
+		72A20A002BDAC59E00AFAA3C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A209FF2BDAC59E00AFAA3C /* Book.swift */; };
+		72A20A022BDAC62900AFAA3C /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A012BDAC62900AFAA3C /* AddBookView.swift */; };
+		72A20A042BDAC8FD00AFAA3C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A032BDAC8FD00AFAA3C /* RatingView.swift */; };
+		72A20A062BDAE3ED00AFAA3C /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A052BDAE3EA00AFAA3C /* StarButton.swift */; };
+		72A20A082BDAE54500AFAA3C /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A072BDAE54500AFAA3C /* EmojiRatingView.swift */; };
+		72A20A0A2BDAE68600AFAA3C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A092BDAE68600AFAA3C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		721DC3412BCD838300ECA051 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		7228CE292BC59679008ED1B7 /* AdvancedHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedHapticsView.swift; sourceTree = "<group>"; };
-		7228CE2B2BC59A5E008ED1B7 /* SimpleHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHapticsView.swift; sourceTree = "<group>"; };
-		7273C4382BC4AAF30008EF5B /* DisablingFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablingFormsView.swift; sourceTree = "<group>"; };
-		72C11F692BCD7C4600FC6D8A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		72C11F6D2BCD7CE400FC6D8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		72C11F6F2BCD7EA700FC6D8A /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
-		72D0B3502BC4988D00A591F1 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72D0B3532BC4988D00A591F1 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		72D0B3552BC4988D00A591F1 /* CodableDataFromURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataFromURLView.swift; sourceTree = "<group>"; };
-		72D0B3572BC4988E00A591F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72D0B3592BC4988E00A591F1 /* CupcakeCorner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CupcakeCorner.entitlements; sourceTree = "<group>"; };
-		72D0B35B2BC4988E00A591F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		72D0B3642BC4A90F00A591F1 /* LoadingImageFromRemoteServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageFromRemoteServerView.swift; sourceTree = "<group>"; };
+		721DEE642BD993340081471F /* HowToUseTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTextEditorView.swift; sourceTree = "<group>"; };
+		721DEE662BD995C00081471F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		721DEE682BD997B40081471F /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		721DEE6A2BD999120081471F /* StudentApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentApp.swift; sourceTree = "<group>"; };
+		721DEE6C2BD9992A0081471F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		728A1C282BD98E470071E9B9 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728A1C2B2BD98E470071E9B9 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		728A1C2D2BD98E470071E9B9 /* HowToUseBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseBindingView.swift; sourceTree = "<group>"; };
+		728A1C2F2BD98E480071E9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728A1C312BD98E480071E9B9 /* Bookworm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bookworm.entitlements; sourceTree = "<group>"; };
+		728A1C332BD98E480071E9B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72A209FF2BDAC59E00AFAA3C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		72A20A012BDAC62900AFAA3C /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		72A20A032BDAC8FD00AFAA3C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		72A20A052BDAE3EA00AFAA3C /* StarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
+		72A20A072BDAE54500AFAA3C /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		72A20A092BDAE68600AFAA3C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72D0B34D2BC4988D00A591F1 /* Frameworks */ = {
+		728A1C252BD98E470071E9B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,102 +55,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7228CE2D2BC59A62008ED1B7 /* Haptics */ = {
+		721DEE632BD9907F0081471F /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
-				7228CE292BC59679008ED1B7 /* AdvancedHapticsView.swift */,
-				7228CE2B2BC59A5E008ED1B7 /* SimpleHapticsView.swift */,
-			);
-			path = Haptics;
-			sourceTree = "<group>";
-		};
-		72C11F682BCD7C1B00FC6D8A /* Lessons */ = {
-			isa = PBXGroup;
-			children = (
-				72D0B3552BC4988D00A591F1 /* CodableDataFromURLView.swift */,
-				7273C4382BC4AAF30008EF5B /* DisablingFormsView.swift */,
-				7228CE2D2BC59A62008ED1B7 /* Haptics */,
-				72D0B3642BC4A90F00A591F1 /* LoadingImageFromRemoteServerView.swift */,
+				721DEE6E2BD999340081471F /* HowToUseSwiftData */,
+				728A1C2D2BD98E470071E9B9 /* HowToUseBindingView.swift */,
+				721DEE642BD993340081471F /* HowToUseTextEditorView.swift */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
 		};
-		72D0B3472BC4988D00A591F1 = {
+		721DEE6E2BD999340081471F /* HowToUseSwiftData */ = {
 			isa = PBXGroup;
 			children = (
-				72D0B3522BC4988D00A591F1 /* CupcakeCorner */,
-				72D0B3512BC4988D00A591F1 /* Products */,
+				721DEE6A2BD999120081471F /* StudentApp.swift */,
+				721DEE682BD997B40081471F /* StudentView.swift */,
+				721DEE662BD995C00081471F /* Student.swift */,
+			);
+			path = HowToUseSwiftData;
+			sourceTree = "<group>";
+		};
+		728A1C1F2BD98E470071E9B9 = {
+			isa = PBXGroup;
+			children = (
+				728A1C2A2BD98E470071E9B9 /* Bookworm */,
+				728A1C292BD98E470071E9B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72D0B3512BC4988D00A591F1 /* Products */ = {
+		728A1C292BD98E470071E9B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72D0B3502BC4988D00A591F1 /* CupcakeCorner.app */,
+				728A1C282BD98E470071E9B9 /* Bookworm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72D0B3522BC4988D00A591F1 /* CupcakeCorner */ = {
+		728A1C2A2BD98E470071E9B9 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
-				72D0B3532BC4988D00A591F1 /* CupcakeCornerApp.swift */,
-				72C11F6F2BCD7EA700FC6D8A /* AddressView.swift */,
-				721DC3412BCD838300ECA051 /* CheckoutView.swift */,
-				72C11F6D2BCD7CE400FC6D8A /* ContentView.swift */,
-				72C11F692BCD7C4600FC6D8A /* Order.swift */,
-				72C11F682BCD7C1B00FC6D8A /* Lessons */,
-				72D0B3572BC4988E00A591F1 /* Assets.xcassets */,
-				72D0B3592BC4988E00A591F1 /* CupcakeCorner.entitlements */,
-				72D0B35A2BC4988E00A591F1 /* Preview Content */,
+				728A1C2B2BD98E470071E9B9 /* BookwormApp.swift */,
+				72A20A012BDAC62900AFAA3C /* AddBookView.swift */,
+				721DEE6C2BD9992A0081471F /* ContentView.swift */,
+				72A20A092BDAE68600AFAA3C /* DetailView.swift */,
+				72A20A072BDAE54500AFAA3C /* EmojiRatingView.swift */,
+				72A20A032BDAC8FD00AFAA3C /* RatingView.swift */,
+				72A20A0C2BDAE6BB00AFAA3C /* Buttons */,
+				72A20A0B2BDAE6B100AFAA3C /* Model */,
+				721DEE632BD9907F0081471F /* Lessons */,
+				728A1C2F2BD98E480071E9B9 /* Assets.xcassets */,
+				728A1C312BD98E480071E9B9 /* Bookworm.entitlements */,
+				728A1C322BD98E480071E9B9 /* Preview Content */,
 			);
-			path = CupcakeCorner;
+			path = Bookworm;
 			sourceTree = "<group>";
 		};
-		72D0B35A2BC4988E00A591F1 /* Preview Content */ = {
+		728A1C322BD98E480071E9B9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				72D0B35B2BC4988E00A591F1 /* Preview Assets.xcassets */,
+				728A1C332BD98E480071E9B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72A20A0B2BDAE6B100AFAA3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72A209FF2BDAC59E00AFAA3C /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72A20A0C2BDAE6BB00AFAA3C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				72A20A052BDAE3EA00AFAA3C /* StarButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72D0B34F2BC4988D00A591F1 /* CupcakeCorner */ = {
+		728A1C272BD98E470071E9B9 /* Bookworm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72D0B35F2BC4988E00A591F1 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
+			buildConfigurationList = 728A1C372BD98E480071E9B9 /* Build configuration list for PBXNativeTarget "Bookworm" */;
 			buildPhases = (
-				72D0B34C2BC4988D00A591F1 /* Sources */,
-				72D0B34D2BC4988D00A591F1 /* Frameworks */,
-				72D0B34E2BC4988D00A591F1 /* Resources */,
+				728A1C242BD98E470071E9B9 /* Sources */,
+				728A1C252BD98E470071E9B9 /* Frameworks */,
+				728A1C262BD98E470071E9B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CupcakeCorner;
-			productName = CupcakeCorner;
-			productReference = 72D0B3502BC4988D00A591F1 /* CupcakeCorner.app */;
+			name = Bookworm;
+			productName = Bookworm;
+			productReference = 728A1C282BD98E470071E9B9 /* Bookworm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72D0B3482BC4988D00A591F1 /* Project object */ = {
+		728A1C202BD98E470071E9B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					72D0B34F2BC4988D00A591F1 = {
-						CreatedOnToolsVersion = 16.0;
+					728A1C272BD98E470071E9B9 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 72D0B34B2BC4988D00A591F1 /* Build configuration list for PBXProject "CupcakeCorner" */;
+			buildConfigurationList = 728A1C232BD98E470071E9B9 /* Build configuration list for PBXProject "Bookworm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,50 +177,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 72D0B3472BC4988D00A591F1;
-			productRefGroup = 72D0B3512BC4988D00A591F1 /* Products */;
+			mainGroup = 728A1C1F2BD98E470071E9B9;
+			productRefGroup = 728A1C292BD98E470071E9B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72D0B34F2BC4988D00A591F1 /* CupcakeCorner */,
+				728A1C272BD98E470071E9B9 /* Bookworm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72D0B34E2BC4988D00A591F1 /* Resources */ = {
+		728A1C262BD98E470071E9B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D0B35C2BC4988E00A591F1 /* Preview Assets.xcassets in Resources */,
-				72D0B3582BC4988E00A591F1 /* Assets.xcassets in Resources */,
+				728A1C342BD98E480071E9B9 /* Preview Assets.xcassets in Resources */,
+				728A1C302BD98E480071E9B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72D0B34C2BC4988D00A591F1 /* Sources */ = {
+		728A1C242BD98E470071E9B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D0B3562BC4988D00A591F1 /* CodableDataFromURLView.swift in Sources */,
-				72D0B3652BC4A90F00A591F1 /* LoadingImageFromRemoteServerView.swift in Sources */,
-				721DC3422BCD838300ECA051 /* CheckoutView.swift in Sources */,
-				7273C4392BC4AAF30008EF5B /* DisablingFormsView.swift in Sources */,
-				7228CE2C2BC59A5E008ED1B7 /* SimpleHapticsView.swift in Sources */,
-				72C11F6E2BCD7CE400FC6D8A /* ContentView.swift in Sources */,
-				72C11F702BCD7EA700FC6D8A /* AddressView.swift in Sources */,
-				72D0B3542BC4988D00A591F1 /* CupcakeCornerApp.swift in Sources */,
-				7228CE2A2BC59679008ED1B7 /* AdvancedHapticsView.swift in Sources */,
-				72C11F6A2BCD7C4600FC6D8A /* Order.swift in Sources */,
+				72A20A002BDAC59E00AFAA3C /* Book.swift in Sources */,
+				72A20A022BDAC62900AFAA3C /* AddBookView.swift in Sources */,
+				728A1C2E2BD98E470071E9B9 /* HowToUseBindingView.swift in Sources */,
+				72A20A042BDAC8FD00AFAA3C /* RatingView.swift in Sources */,
+				72A20A082BDAE54500AFAA3C /* EmojiRatingView.swift in Sources */,
+				721DEE692BD997B40081471F /* StudentView.swift in Sources */,
+				721DEE6D2BD9992A0081471F /* ContentView.swift in Sources */,
+				72A20A0A2BDAE68600AFAA3C /* DetailView.swift in Sources */,
+				728A1C2C2BD98E470071E9B9 /* BookwormApp.swift in Sources */,
+				721DEE6B2BD999120081471F /* StudentApp.swift in Sources */,
+				721DEE652BD993340081471F /* HowToUseTextEditorView.swift in Sources */,
+				72A20A062BDAE3ED00AFAA3C /* StarButton.swift in Sources */,
+				721DEE672BD995C00081471F /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		72D0B35D2BC4988E00A591F1 /* Debug */ = {
+		728A1C352BD98E480071E9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		72D0B35E2BC4988E00A591F1 /* Release */ = {
+		728A1C362BD98E480071E9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,15 +337,15 @@
 			};
 			name = Release;
 		};
-		72D0B3602BC4988E00A591F1 /* Debug */ = {
+		728A1C382BD98E480071E9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CupcakeCorner/CupcakeCorner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Bookworm/Bookworm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -330,12 +358,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -345,15 +373,15 @@
 			};
 			name = Debug;
 		};
-		72D0B3612BC4988E00A591F1 /* Release */ = {
+		728A1C392BD98E480071E9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CupcakeCorner/CupcakeCorner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Bookworm/Bookworm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -366,12 +394,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliealvarez.Bookworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -384,25 +412,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72D0B34B2BC4988D00A591F1 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
+		728A1C232BD98E470071E9B9 /* Build configuration list for PBXProject "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72D0B35D2BC4988E00A591F1 /* Debug */,
-				72D0B35E2BC4988E00A591F1 /* Release */,
+				728A1C352BD98E480071E9B9 /* Debug */,
+				728A1C362BD98E480071E9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72D0B35F2BC4988E00A591F1 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
+		728A1C372BD98E480071E9B9 /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72D0B3602BC4988E00A591F1 /* Debug */,
-				72D0B3612BC4988E00A591F1 /* Release */,
+				728A1C382BD98E480071E9B9 /* Debug */,
+				728A1C392BD98E480071E9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72D0B3482BC4988D00A591F1 /* Project object */;
+	rootObject = 728A1C202BD98E470071E9B9 /* Project object */;
 }

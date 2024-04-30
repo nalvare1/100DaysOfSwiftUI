@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var order = Order()
-    
+
     var body: some View {
         NavigationStack {
             Form {
                 Section {
-                    Picker("Select your cupcake flavor", selection: $order.flavorIndex) {
+                    Picker("Select your cake type", selection: $order.flavor) {
                         ForEach(Order.flavors.indices, id: \.self) {
                             Text(Order.flavors[$0])
                         }
@@ -24,9 +24,9 @@ struct ContentView: View {
                 }
 
                 Section {
-                    Toggle("Any special requests?", isOn: $order.specialRequestsEnabled.animation())
+                    Toggle("Any special requests?", isOn: $order.specialRequestEnabled)
 
-                    if order.specialRequestsEnabled {
+                    if order.specialRequestEnabled {
                         Toggle("Add extra frosting", isOn: $order.extraFrosting)
 
                         Toggle("Add extra sprinkles", isOn: $order.addSprinkles)

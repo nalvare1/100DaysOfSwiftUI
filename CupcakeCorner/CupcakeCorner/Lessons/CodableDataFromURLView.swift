@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CodableDataFromURLView.swift
 //  CupcakeCorner
 //
 //  Created by Natalie Alvarez on 4/8/24.
@@ -17,8 +17,8 @@ struct Result: Codable {
     var collectionName: String
 }
 
-struct ContentView: View {
-    @State private var results = [Result]
+struct CodableDataFromURLView: View {
+    @State private var results = [Result]()
 
     var body: some View {
         List(results, id: \.trackId) { item in
@@ -57,5 +57,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CodableDataFromURLView()
 }

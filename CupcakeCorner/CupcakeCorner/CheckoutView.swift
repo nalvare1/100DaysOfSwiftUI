@@ -10,8 +10,9 @@ import SwiftUI
 struct CheckoutView: View {
     var order: Order
 
-    @State private var confirmationMessage = ""
-    @State private var showingConfirmation = false
+    @State private var alertTitle = ""
+    @State private var alertMessage = ""
+    @State private var showingAlert = false
 
     var body: some View {
         ScrollView {
@@ -39,15 +40,18 @@ struct CheckoutView: View {
         .navigationTitle("Check Out")
         .navigationBarTitleDisplayMode(.inline)
         .scrollBounceBehavior(.basedOnSize) // Lets us disable the scrolling bounce behavior when the content fits in the view (i.e. a good way to disable scrolling based on dynamicTypeSize!!)
-        .alert("Thank you!", isPresented: $showingConfirmation) {
-            Button("OK") { }
+        .alert(alertTitle, isPresented: $showingAlert) {
+            Button("OK") {
+                showingAlert = false
+            }
         } message: {
-            Text("confirmationMessage")
+            Text("\(alertMessage)")
         }
+        //.alert("Order failed", isPresented: $showingFailure)
     }
 
     func placeOrder() async {
-        guard let encoded = try? JSONEncoder.encode(order) else {
+        guard let encoded = try? JSONEncoder().encode(order) else {
             print("Failed to encode order")
             return
         }
@@ -62,10 +66,23 @@ struct CheckoutView: View {
 
             // handle our request
             let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decodedOrder.quantity) \(Order.flavors[decodedOrder.flavorIndex]) cupcake(s) is on its way!"
+            orderSuccessAlert(quantity: decodedOrder.quantity, flavor: decodedOrder.flavor)
         } catch {
             print("Check out failed: \(error.localizedDescription)")
+            orderFailureAlert(errorDescription: error.localizedDescription)
         }
+    }
+
+    func orderSuccessAlert(quantity: Int, flavor: Int) {
+        alertTitle = "Thank you!"
+        alertMessage = "Your order for \(quantity) \(Order.flavors[flavor]) cupcake(s) is on its way!"
+        showingAlert = true
+    }
+
+    func orderFailureAlert(errorDescription: String) {
+        alertTitle = "Order failed!"
+        alertMessage = "Your order checkout failed with error: \(errorDescription)"
+        showingAlert = true
     }
 }
 

@@ -10,7 +10,7 @@ import Foundation
 @Observable
 class Order: Codable {
     enum CodingKeys: String, CodingKey {
-        case _flavorIndex = "flavorIndex"
+        case _flavor = "flavor"
         case _quantity = "quantity"
         case _specialRequestEnabled = "specialRequestEnabled"
         case _extraFrosting = "extraFrosting"
@@ -24,7 +24,7 @@ class Order: Codable {
     // MARK: Cupcake
     static let flavors = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
 
-    var flavorIndex = 0
+    var flavor = 0
     var quantity = 3
 
     var specialRequestEnabled = false {
@@ -45,20 +45,24 @@ class Order: Codable {
     var zipCode = ""
 
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zipCode.isEmpty {
+        if isWhiteSpaceOrEmpty(name) || isWhiteSpaceOrEmpty(streetAddress) || isWhiteSpaceOrEmpty(city) || isWhiteSpaceOrEmpty(zipCode) {
             return false
         }
 
         return true
     }
 
+    func isWhiteSpaceOrEmpty(_ str: String) -> Bool {
+        return str.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+
     // MARK: Check Out
-    var cost: Double {
+    var cost: Decimal {
         // base price ($2 per cupcake)
         var cost = Decimal(quantity) * 2
 
         // complicated cupcakes cost more
-        cost += Decimal(flavorIndex) / 2
+        cost += Decimal(flavor) / 2
 
         // extra frosting ($1 per cupcake)
         if extraFrosting {

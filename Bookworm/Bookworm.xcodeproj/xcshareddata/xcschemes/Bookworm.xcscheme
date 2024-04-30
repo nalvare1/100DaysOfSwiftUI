@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
-   version = "1.8">
+   LastUpgradeVersion = "1520"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72D0B34F2BC4988D00A591F1"
-               BuildableName = "CupcakeCorner.app"
-               BlueprintName = "CupcakeCorner"
-               ReferencedContainer = "container:CupcakeCorner.xcodeproj">
+               BlueprintIdentifier = "728A1C272BD98E470071E9B9"
+               BuildableName = "Bookworm.app"
+               BlueprintName = "Bookworm"
+               ReferencedContainer = "container:Bookworm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "72D0B34F2BC4988D00A591F1"
-            BuildableName = "CupcakeCorner.app"
-            BlueprintName = "CupcakeCorner"
-            ReferencedContainer = "container:CupcakeCorner.xcodeproj">
+            BlueprintIdentifier = "728A1C272BD98E470071E9B9"
+            BuildableName = "Bookworm.app"
+            BlueprintName = "Bookworm"
+            ReferencedContainer = "container:Bookworm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "72D0B34F2BC4988D00A591F1"
-            BuildableName = "CupcakeCorner.app"
-            BlueprintName = "CupcakeCorner"
-            ReferencedContainer = "container:CupcakeCorner.xcodeproj">
+            BlueprintIdentifier = "728A1C272BD98E470071E9B9"
+            BuildableName = "Bookworm.app"
+            BlueprintName = "Bookworm"
+            ReferencedContainer = "container:Bookworm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
